@@ -1,0 +1,156 @@
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\appsettings.json
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.exe
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.deps.json
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.runtimeconfig.json
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.runtimeconfig.dev.json
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\ref\Library Management System.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.pdb
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Devart.Data.Linq.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Devart.Data.SqlServer.Linq.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.csproj.AssemblyReference.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.AssemblyInfoInputs.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.AssemblyInfo.cs
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\staticwebassets\Library Management System.StaticWebAssets.Manifest.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\staticwebassets\Library Management System.StaticWebAssets.xml
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\scopedcss\bundle\Library Management System.styles.css
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.RazorTargetAssemblyInfo.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.csproj.CopyComplete
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\ref\Library Management System.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.pdb
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.genruntimeconfig.cache
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Humanizer.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\MAYUR\source\repos\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\appsettings.json
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.exe
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.deps.json
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.runtimeconfig.json
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.runtimeconfig.dev.json
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\ref\Library Management System.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Library Management System.pdb
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Devart.Data.Linq.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Devart.Data.SqlServer.Linq.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Humanizer.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.csproj.AssemblyReference.cache
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.AssemblyInfoInputs.cache
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.AssemblyInfo.cs
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\staticwebassets\Library Management System.StaticWebAssets.Manifest.cache
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\staticwebassets\Library Management System.StaticWebAssets.xml
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\scopedcss\bundle\Library Management System.styles.css
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.RazorTargetAssemblyInfo.cache
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.csproj.CopyComplete
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\ref\Library Management System.dll
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.pdb
+C:\Users\MAYUR\Desktop\Library Management System\Library Management System\Library Management System\obj\Debug\net5.0\Library Management System.genruntimeconfig.cache

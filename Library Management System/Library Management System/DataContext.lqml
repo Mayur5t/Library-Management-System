@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Library Management" EntityNamespace="LibraryManagementContext" ContextNamespace="LibraryManagementContext" Class="LibraryManagementDataContext" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" ed:Guid="76d9866d-0401-4953-843e-292a0e68dfc4" Provider="Devart.Data.SqlServer.Linq.Provider.SqlDataProvider, Devart.Data.SqlServer.Linq" Extended="true" xmlns="http://schemas.devart.com/linqconnect/mapping">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=LAPTOP-G23UFKK3\SQLEXPRESS;Initial Catalog=&quot;Library Management&quot;;Integrated Security=True;Persist Security Info=True" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BookDetails" Member="BookDetails">
+    <Type Name="BookDetail" ed:Guid="c1c52b15-d88a-4cde-b59f-1e6ae486e7cf">
+      <Column Name="BookId" Type="System.Int32" AutoSync="OnInsert" DbType="INT NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="10" ed:ValidateRequired="true" ed:Guid="9893fb6f-62ba-4b1f-9f98-4d62fdf2a47c" />
+      <Column Name="BookName" Type="System.String" DbType="NVARCHAR(50)" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="dfcb9da5-6332-4cb7-b938-e9441474d718" />
+      <Column Name="Author" Type="System.String" DbType="NVARCHAR(50)" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="68462eaa-9967-4b5b-8359-4aa3fd47717d" />
+      <Column Name="Publisher" Type="System.String" DbType="NVARCHAR(50)" CanBeNull="true" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="57344e40-9a25-4520-8d7e-75b073c7c3e3" />
+      <Column Name="Price" Type="System.Int32" DbType="INT" CanBeNull="true" UpdateCheck="Never" Precision="10" ed:ValidateRequired="false" ed:Guid="bfd6553d-a2b7-4dc9-86df-686a3319368e" />
+      <Column Name="NumberOfCopies" Type="System.Int32" DbType="INT" CanBeNull="true" UpdateCheck="Never" Precision="10" ed:ValidateRequired="false" ed:Guid="11e1ff68-ac7f-4969-b6c5-5b0f35a8f4be" />
+      <Association Name="BookDetail_BookIssue" ed:AssociationGuid="11b83a6b-eb26-40fa-98c8-037f065d442f" Member="BookIssues" ed:Guid="117139a1-e32f-4b64-b110-b9c0306f8348" ThisKey="BookId" OtherKey="BookId" Type="BookIssue" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BookIssue" Member="BookIssues">
+    <Type Name="BookIssue" ed:Guid="ce2dc2cd-2884-4b8d-a2b8-379bd45ffebf">
+      <Column Name="Issue_Id" Member="IssueId" Type="System.Int32" AutoSync="OnInsert" DbType="INT NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="10" ed:ValidateRequired="true" ed:Guid="114143eb-70d7-4c04-8b21-3e20ef62f920" />
+      <Column Name="BookId" Type="System.Int32" DbType="INT" CanBeNull="true" UpdateCheck="Never" Precision="10" ed:ValidateRequired="false" ed:Guid="314c2b75-266f-468e-bbda-fb0179765a67" />
+      <Column Name="UserId" Type="System.Int32" DbType="INT" CanBeNull="true" UpdateCheck="Never" Precision="10" ed:ValidateRequired="false" ed:Guid="84f88082-3811-4411-8887-39d091803336" />
+      <Column Name="IssueDate" Type="System.DateTime" DbType="DATE" CanBeNull="true" UpdateCheck="Never" ed:ValidateRequired="false" ed:Guid="9a9248c2-6f32-4f43-b0e9-f1ac94e17b51" />
+      <Column Name="ReturnDate" Type="System.DateTime" DbType="DATE" CanBeNull="true" UpdateCheck="Never" ed:ValidateRequired="false" ed:Guid="2fc24f09-650c-42fd-a42d-9a121d56242c" />
+      <Association Name="BookDetail_BookIssue" ed:AssociationGuid="11b83a6b-eb26-40fa-98c8-037f065d442f" Member="BookDetail" ed:Guid="4ac29407-c3bb-408f-a729-0b94d02320dc" ThisKey="BookId" OtherKey="BookId" Type="BookDetail" DeleteRule="NO ACTION" IsForeignKey="true" />
+      <Association Name="SignUp_BookIssue" ed:AssociationGuid="e4ebf4c4-db01-4a16-89a0-22ff09319a9f" Member="SignUp" ed:Guid="25b4bb91-cc2d-426a-8426-06b605ab190b" ThisKey="UserId" OtherKey="UserId" Type="SignUp" DeleteRule="NO ACTION" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SignUp" Member="SignUps">
+    <Type Name="SignUp" ed:Guid="3f97d89e-cdc5-4bc7-8791-bcb4e51b0044">
+      <Column Name="User_Id" Member="UserId" Type="System.Int32" AutoSync="OnInsert" DbType="INT NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="10" ed:ValidateRequired="true" ed:Guid="515f74e3-6099-4fc8-811d-d95885fecea2" />
+      <Column Name="User_Name" Member="UserName" Type="System.String" DbType="NVARCHAR(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="true" ed:Guid="dcdb2f6a-f269-4b87-ba13-2a458420cf85" />
+      <Column Name="Password" Type="System.String" DbType="NVARCHAR(50) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="true" ed:Guid="9edfbe02-ec30-4a9f-a7fc-2c19b7ee109c" />
+      <Association Name="SignUp_BookIssue" ed:AssociationGuid="e4ebf4c4-db01-4a16-89a0-22ff09319a9f" Member="BookIssues" ed:Guid="8db71720-ab9d-474c-88f2-47e38ab48732" ThisKey="UserId" OtherKey="UserId" Type="BookIssue" />
+    </Type>
+  </Table>
+</Database>
