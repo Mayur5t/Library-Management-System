@@ -12,42 +12,48 @@ namespace Library_Management_System.Core.Book
     {
         LibraryManagementDataContext context = new LibraryManagementDataContext();
         BookIssue bi = new BookIssue();
+        BookDetail bd = new BookDetail();
 
-        public async Task<string>IssueBook(BookIssueModel bookIssueModel)
+        public async Task<string>Issue(BookIssueModel value)
         {
-            var res = context.BookDetails.Single(x => x.BookId==bookIssueModel.BookId);
-            var u = context.SignUps.Single(u => u.UserId == bookIssueModel.UserId.Id);
+            var res = context.BookDetails.Single(x => x.BookId== value.BookId.Id);
             bi.BookId = res.BookId;
-            bi.UserId = u.UserId;
             bi.IssueDate = DateTime.Now;
             bi.ReturnDate = DateTime.Now.AddDays(10);
-
+            bd.NumberOfCopies = bd.NumberOfCopies - 1;
             context.BookIssues.InsertOnSubmit(bi);
             context.SubmitChanges();
             return "Book Issue Successfully";
         }
 
-        public async Task<IEnumerable>GetAllIssueBook()
+        public List<Model.Book.BookIssueModel>AllIssue()
         {
-            var result = from res in context.BookIssues
-                        select res;
-            for (int i = 0; i < result.Count(); i++)
-            {
                 var x = (from x1 in context.BookIssues
-                         select new
+                         select new Model.Book.BookIssueModel
                          {
-                             IssueId = x1.IssueId,
-                             UserId=x1.UserId,
-                             BookId = x1.BookId,
-                             IssueDate=x1.IssueDate,
-                             ReturnDate=x1.ReturnDate
+                            // IssueId = x1.IssueId,
+                            // BookId= (int)x1.BookId.id,
+                             IssueDate= (DateTime)x1.IssueDate,
+                             ReturnDate=(DateTime)x1.ReturnDate
                             
                          }).ToList();
                 return x;
-            }
-            return "No Data Found";
+  
         }
-        
-      
+
+        /*public List<Model.Book.BookModel> All()
+        {
+            var x = (from x1 in context.BookDetails
+                     select new Model.Book.BookModel()
+                     {
+                         // BookId = x1.BookId,
+                         BookName = x1.BookName,
+                         Author = x1.Author,
+                         Publisher = x1.Publisher,
+                         Price = (int)x1.Price,
+                         NumberOfCopies = (int)x1.NumberOfCopies
+                     }).ToList();
+            return x;
+        }*/
     }
 }

@@ -16,39 +16,52 @@ namespace Library_Management_System.Controllers.Book
    // [Authorize]
     public class BookController : ControllerBase
     {
-        [HttpPost("AddBook")]
-        public async Task<IActionResult>InsertBook(BookModel bookModel)
+        [HttpPost("Add")]
+        public async Task<IActionResult>Add(BookModel bookModel)
         {
-            return Ok(new Books().AddBook(bookModel));
+            return Ok(new Books().Add(bookModel));
         }
 
-        [HttpGet("GetAllBook")]
+        [HttpGet("GetAll")]
         public async Task<IActionResult> GetallBook()
         {
-            return Ok(new Books().GetAllBooks());
+            return Ok(new Books().All());
         }
 
-        [HttpPut("{Book_Id}")]
-        public async Task<IActionResult>UpdateBook(BookModel bookModel,int Book_Id)
+        [HttpPut("{Id}")]
+        public async Task<IActionResult>Update(BookModel bookModel,int Id)
         {
-            return Ok(new Books().Updatebook(bookModel, Book_Id));
+            return Ok(new Books().Update(bookModel, Id));
         }
 
-        [HttpDelete("{Book_Id}")]
-        public async Task<IActionResult>DeleteBook(BookModel bookModel,int Book_Id)
+        [HttpDelete("{Id}")]
+        public async Task<IActionResult>Delete(BookModel bookModel,int Id)
         {
-            return Ok(new Books().DeleteBook(bookModel, Book_Id));
+            return Ok(new Books().Delete(bookModel, Id));
         }
 
-        [HttpPatch("{Book_Id}")]
-        public async Task<IActionResult> UpdateByPatch([FromBody] JsonPatchDocument bookModel, [FromRoute]int Book_Id)
+        /*[HttpPatch("{Id}")]
+        public async Task<IActionResult> UpdateByPatch([FromBody] JsonPatchDocument bookModel, [FromRoute]int Id)
         {
-            return Ok(new Books().UpdateBookByPatch(Book_Id,bookModel));
+            return Ok(new Books().UpdateBookByPatch(Id,bookModel));
+        }*/
+        [HttpPost("Issue")]
+        public async Task<IActionResult> Issue(BookIssueModel bookIssueModel)
+        {
+            return Ok(new BookIssues().Issue(bookIssueModel));
+        }
+        [HttpGet("AllIssue")]
+        public async Task<IActionResult> AllIssue()
+        {
+            return Ok(new BookIssues().AllIssue());
         }
 
-        
+        [HttpPost("Return")]
+        public async Task<IActionResult> Return(BookReturnModel bookReturn)
+        {
+            return Ok(new BookReturns().Return(bookReturn));
+        }
 
-        
 
 
     }

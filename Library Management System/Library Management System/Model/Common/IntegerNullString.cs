@@ -8,5 +8,7 @@ namespace Library_Management_System.Model.Common
     public class IntegerNullString
     {
         public int Id { get; set; }
+
+        public String Text { get; set; }
     }
 }

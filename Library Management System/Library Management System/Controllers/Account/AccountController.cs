@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Library_Management_System.Controllers.Common
+namespace Library_Management_System.Controllers.Account
 {
     [Route("api/[controller]")]
     [ApiController]

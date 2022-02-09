@@ -1,4 +1,7 @@
-﻿using Library_Management_System.Model.Account;
+﻿
+
+
+using Library_Management_System.Model.Account;
 using LibraryManagementContext;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -21,19 +24,19 @@ namespace Library_Management_System.Core
         {
             _configuration = configuration;
         }
-        public async Task<string> Signup(UserModel userModel)
+        public async Task<string> Signup(UserModel value)
         {
             SignUp sp = new SignUp();
 
-            var result = context.SignUps.FirstOrDefault(X => X.UserName == userModel.UserName);
-            if(result !=null)
+            var result = context.SignUps.FirstOrDefault(X => X.UserName == value.UserName);
+            if (result != null)
             {
                 throw new ArgumentException("User Name Already Exist");
             }
             else
             {
-                sp.UserName = userModel.UserName;
-                sp.Password = userModel.Password;
+                sp.UserName = value.UserName;
+                sp.Password = value.Password;
 
                 context.SignUps.InsertOnSubmit(sp);
                 context.SubmitChanges();
@@ -41,12 +44,12 @@ namespace Library_Management_System.Core
             }
         }
 
-        public async Task<string>Login(UserModel userModel)
+        public async Task<string> Login(UserModel value)
         {
             SignUp sp = new SignUp();
 
             var result = (from data in context.SignUps
-                          where data.UserName == userModel.UserName && data.Password == userModel.Password
+                          where data.UserName == value.UserName && data.Password == value.Password
                           select data).ToList();
 
             if (result.Count() == 1)
@@ -54,8 +57,8 @@ namespace Library_Management_System.Core
 
                 var authclaims = new List<Claim>
                   {
-                 new Claim(ClaimTypes.Name,userModel.UserName),
-                 new Claim(ClaimTypes.Name,userModel.Password),
+                 new Claim(ClaimTypes.Name,value.UserName),
+                 new Claim(ClaimTypes.Name,value.Password),
                  new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
                   };
                 var authsignkey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["JWT:Secret"]));
@@ -75,3 +78,4 @@ namespace Library_Management_System.Core
         }
     }
 }
+

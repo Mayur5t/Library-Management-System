@@ -8,7 +8,7 @@ namespace Library_Management_System.Model.Account
 {
     public class UserModel
     {
-        [Required]
+        [Required(ErrorMessage ="")]
         public string UserName { get; set; }
         [Required]
         public string Password { get; set; }

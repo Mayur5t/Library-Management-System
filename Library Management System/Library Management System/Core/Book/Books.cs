@@ -12,23 +12,24 @@ namespace Library_Management_System.Core.Book
     public class Books
     {
         LibraryManagementDataContext context = new LibraryManagementDataContext();
-        BookDetail books = new BookDetail();
-        public async Task<string>AddBook(BookModel b)
+
+        //Insert A Book
+        public async Task<string>Add(BookModel value)
         {
             BookDetail books = new BookDetail();
         
-            var result=context.BookDetails.FirstOrDefault(X => X.BookName == b.BookName);
+            var result=context.BookDetails.FirstOrDefault(X => X.BookName == value.BookName);
             if(result!=null)
             {
                 throw new ArgumentException("Book Already Inserted..!");
             }
             else
             {
-                books.BookName = b.BookName;
-                books.Author = b.Author;
-                books.Publisher = b.Publisher;
-                books.Price = b.Price;
-                books.NumberOfCopies = b.NumberOfCopies;
+                books.BookName = value.BookName;
+                books.Author = value.Author;
+                books.Publisher = value.Publisher;
+                books.Price = value.Price;
+                books.NumberOfCopies = value.NumberOfCopies;
 
                 context.BookDetails.InsertOnSubmit(books);
                 context.SubmitChanges();
@@ -37,17 +38,18 @@ namespace Library_Management_System.Core.Book
             }
         }
 
-        public async Task<string>Updatebook(BookModel b,int Id)
+        //Update Book Details
+        public async Task<string>Update(BookModel value, int Id)
         {
             
             BookDetail books = context.BookDetails.SingleOrDefault(x => x.BookId == Id);
             if(books !=null)
             {
-                books.BookName = b.BookName;
-                books.Author = b.Author;
-                books.Publisher = b.Publisher;
-                books.Price = b.Price;
-                books.NumberOfCopies = b.NumberOfCopies;
+                books.BookName = value.BookName;
+                books.Author = value.Author;
+                books.Publisher = value.Publisher;
+                books.Price = value.Price;
+                books.NumberOfCopies = value.NumberOfCopies;
 
                 context.SubmitChanges();
                 return "Book Updated..!";
@@ -55,7 +57,8 @@ namespace Library_Management_System.Core.Book
             return "Book Is Not Available";
         }
 
-        public async Task<string> UpdateBookByPatch(int Id,JsonPatchDocument b)
+        //Update Book By Patch
+        /*public async Task<string> UpdateBookByPatch(int Id,JsonPatchDocument b)
         {
             BookDetail books = context.BookDetails.SingleOrDefault(x => x.BookId == Id);
             if(books !=null)
@@ -65,10 +68,11 @@ namespace Library_Management_System.Core.Book
                 return "Book Updated..!";
             }
             return "Invalid Data";
-        }
+        }*/
 
 
-        public async Task<string> DeleteBook(BookModel b,int Id)
+        //Delete Book
+        public async Task<string> Delete(BookModel value, int Id)
         {
             BookDetail books = context.BookDetails.SingleOrDefault(X => X.BookId == Id);
             if(books !=null)
@@ -80,7 +84,9 @@ namespace Library_Management_System.Core.Book
             return "Invalid Data";
         }
 
-        public async Task<IEnumerable>GetAllBooks()
+
+        //View All Book
+       /* public async Task<IEnumerable>All()
         {
             var result = from res in context.BookDetails
                          select res;
@@ -99,6 +105,21 @@ namespace Library_Management_System.Core.Book
                 return x;
             }
             return "No Data Found";
+        }*/
+
+        public List<Model.Book.BookModel> All()
+        {
+                var x = (from x1 in context.BookDetails
+                         select new Model.Book.BookModel()
+                         {
+                            // BookId = x1.BookId,
+                             BookName = x1.BookName,
+                             Author = x1.Author,
+                             Publisher = x1.Publisher,
+                             Price = (int) x1.Price,
+                             NumberOfCopies = (int) x1.NumberOfCopies
+                         }).ToList();
+                return x;
         }
 
     }
